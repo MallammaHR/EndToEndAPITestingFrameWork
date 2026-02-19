@@ -125,17 +125,6 @@
 
 
 		<dependency>
-			<groupId>SeleniumCoreFundmentalsJan2026</groupId>
-			<artifactId>SeleniumCoreFundmentalsJan2026</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>SeptemberRestAssured2025</groupId>
-			<artifactId>SeptemberRestAssured2025</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-
-		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>chaintest-testng</artifactId>
 			<version>1.0.12</version>
