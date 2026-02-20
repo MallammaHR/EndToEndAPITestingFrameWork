@@ -31,7 +31,7 @@ public class GetUserTest extends BaseTest{
 		 tokenID = "ef3a7ddaa9f69852a071447d94d8bad5a14350fe1f7221875b69688012982160";
 		ConfigManager.set("bearertoken",tokenID);
 	}
-	@Description("getting all the users......")
+	@Description("getting all the users.....")
 	@Owner("Mallamma Reddy")
 	@Severity(SeverityLevel.CRITICAL)
 	@Test

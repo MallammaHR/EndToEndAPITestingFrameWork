@@ -79,7 +79,7 @@ public class CreateUserTest extends BaseTest
 		System.out.println("*****************************************************************************");
 	}
 //	
-//	//json body but with random emailID-method from the String utils
+//	//JSON body but with random emailID-method from the String utils
 	@Test(enabled =false)
 	 public void createAUserTestWithJsonStringWithRandomEmailID() {
 		 String emailId = StringUtils.getRandomEmailId();
@@ -96,8 +96,7 @@ public class CreateUserTest extends BaseTest
 	 }
 
 
-	
-//	//user.josn sending in the form of File
+	//user.josn sending in the form of File
 	@Test(enabled =false)
 	public void createAUserTestWithJsonfile() {
 
@@ -105,7 +104,7 @@ public class CreateUserTest extends BaseTest
 		Response response = restClient.post(BASE_URL_GOREST, GOREST_USERS_ENDPOINT, userFile, null, null, AuthType.BEARER_TOKEN, ContentType.JSON);
 		Assert.assertEquals(response.jsonPath().getString("name"), "Teena");
 		Assert.assertNotNull(response.jsonPath().getString("id"));	
-		System.out.println("*****************************************************************************");
+		System.out.println("*****************************************************************************************");
 	}
 //	
 }
